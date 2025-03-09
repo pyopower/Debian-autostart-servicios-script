@@ -11,7 +11,6 @@ Este script `gestionar_servicios.sh` permite listar, habilitar y deshabilitar se
 
 ## Uso
 
-1. Clona el repositorio y navega al directorio:
+1. Copia y pega esta línea en tu terminal:
    ```sh
-   git clone https://github.com/tu-usuario/nuevo-repositorio.git
-   cd nuevo-repositorio
+   curl -O https://raw.githubusercontent.com/pyopower/Debian-autostart-servicios-script/main/gestionar_servicios.sh && chmod +x gestionar_servicios.sh && sudo ./gestionar_servicios.sh
